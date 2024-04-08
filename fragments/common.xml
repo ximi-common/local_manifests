@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="device/xiaomi/common" name="android_device_xiaomi_common"
+        remote="ximi-common" revision="fourteen" >
+        <linkfile src="hardware/qcom/os_pickup_ext.mk" dest="vendor/qcom/opensource/Android.mk" />
+    </project>
+    <project path="vendor/xiaomi/common" name="android_vendor_xiaomi_common"
+        remote="ximi-common" revision="fourteen" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi"
+        remote="ximi-common" revision="fourteen" />
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Bengal Common -->
+    <project path="device/xiaomi/bengal-common" name="android_device_xiaomi_bengal-common"
+        remote="ximi-common" revision="fourteen" />
+    <project path="vendor/xiaomi/bengal-common" name="android_vendor_xiaomi_bengal-common"
+        remote="ximi-common" revision="fourteen" />
+    <!-- chime-sm6115 -->
+    <project path="device/xiaomi/chime" name="android_device_xiaomi_chime"
+        remote="ximi-common" revision="fourteen" />
+    <project path="vendor/xiaomi/chime" name="android_vendor_xiaomi_chime"
+        remote="ximi-common" revision="fourteen" />
+    <project path="kernel/xiaomi/sm6115" name="android_kernel_xiaomi_sm6115"
+        remote="ximi-common" revision="android" />
+</manifest>

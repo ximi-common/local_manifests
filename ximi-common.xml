@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Xiaomi Common -->
+    <remote name="ximi-common"
+        fetch="https://github.com/ximi-common/" />
+    <!-- Motorola Common -->
+    <remote name="moto-common"
+        fetch="https://github.com/moto-common/" />
+    <!-- CLO -->
+    <remote name="clo-la"
+            fetch="https://git.codelinaro.org/clo/la"
+            sync-c="true"
+            sync-tags="false" />
+    <!-- Paranoid Android -->
+    <remote name="aospa"
+        fetch="https://github.com/AOSPA/" />
+    <!-- Paranoid Android Vendor -->
+    <remote name="aospa-vendor"
+        fetch="https://github.com/ThankYouMario/" />
+
+    <!-- ximi-common main trees -->
+    <include name="local_manifests/fragments/common.xml"/>
+    <!-- misc trees -->
+    <include name="local_manifests/fragments/misc.xml"/>
+    <!-- device trees -->
+    <include name="local_manifests/fragments/bengal.xml"/>
+    <!-- soc specific trees -->
+    <include name="local_manifests/fragments/soc/qcom.xml"/>
+</manifest>
