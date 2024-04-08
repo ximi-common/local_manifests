@@ -23,7 +23,7 @@
     <!-- misc trees -->
     <include name="local_manifests/fragments/misc.xml"/>
     <!-- device trees -->
-    <include name="local_manifests/fragments/bengal.xml"/>
+    <include name="local_manifests/fragments/sm6115.xml"/>
     <!-- soc specific trees -->
     <include name="local_manifests/fragments/soc/qcom.xml"/>
 </manifest>
