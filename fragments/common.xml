@@ -4,6 +4,8 @@
         remote="ximi-common" revision="fourteen" >
         <linkfile src="hardware/qcom/os_pickup_ext.mk" dest="vendor/qcom/opensource/Android.mk" />
     </project>
+    <project path="device/xiaomi/targets" name="android_device_xiaomi_targets"
+        remote="ximi-common" revision="main" />
     <project path="vendor/xiaomi/common" name="android_vendor_xiaomi_common"
         remote="ximi-common" revision="fourteen" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi"
